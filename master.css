@@ -49,6 +49,13 @@ p {
 	height: 70%;
 	width: 70%;
 	margin: 30px auto;
+	position: relative;
+}
+
+.raja_small_logo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .profile_pic{
@@ -82,4 +89,10 @@ a:hover
 	color:#00A0C6; 
 	text-decoration:none; 
 	cursor:pointer;  
+}
+
+.quotes{
+	position: absolute;
+	bottom: 0;
+	font-style: italic;
 }
